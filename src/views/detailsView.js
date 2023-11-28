@@ -8,7 +8,7 @@ const detailsTemplate = (data, onDelete, onApply) => html`
     <div id="details-wrapper">
         <img id="details-img" src=${data.imageUrl} alt="example1" />
         <p id="details-title">${data.title}</p>
-        <p id="details-category">Category: <span id="categories">IT, Developer, WEB</span></p>
+        <p id="details-category">Category: <span id="categories">${data.category}</span></p>
         <p id="details-salary">Salary: <span id="salary-number">${data.salary}</span></p>
         <div id="info-wrapper">
             <div id="details-description">
